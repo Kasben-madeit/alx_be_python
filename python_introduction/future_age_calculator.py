@@ -1,0 +1,3 @@
+age = int(input('How old are you\n'))
+new_age = age + 27
+print(f"In 2025, you will be {new_age} years old")
