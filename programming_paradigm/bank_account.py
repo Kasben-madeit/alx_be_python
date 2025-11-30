@@ -21,9 +21,3 @@ class BankAccount:
     def display_balance(self):
         print(f"Current Balance: ${self.account_balance:.2f}")
     
-d1 = BankAccount(100)
-d1.withdraw(50)
-d1.display_balance()
-# d1.display_balance()
-# d1.deposit(200)
-# d1.display_balance()
